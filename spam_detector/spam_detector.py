@@ -82,13 +82,13 @@ def antreneaza_model(df):
     return pipeline
 
 
-def salveaza_model(pipeline, cale='model_spam.pkl'):
+def salveaza_model(pipeline, cale=os.path.join(os.path.dirname(__file__), 'model_spam.pkl')):
     joblib.dump(pipeline, cale)
     marime = os.path.getsize(cale)
     print(f"✅ Model salvat: {cale} ({marime} bytes)")
 
 
-def incarca_si_testeaza(cale='model_spam.pkl'):
+def incarca_si_testeaza(cale=os.path.join(os.path.dirname(__file__), 'model_spam.pkl')):
     model = joblib.load(cale)
     print(f"\n✅ Model încărcat din: {cale}")
 

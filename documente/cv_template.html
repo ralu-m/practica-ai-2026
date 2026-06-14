@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@page { margin: 2cm; }
+body { font-family: 'DejaVu Sans', sans-serif; font-size: 11pt; line-height: 1.5; color: #222; }
+
+.header { display: flex; align-items: center; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #005a9c; }
+.header-text { flex: 1; }
+.header-photo { margin-left: 20px; }
+.header-photo img { width: 110px; height: auto; border-radius: 8px; border: 2px solid #005a9c; object-fit: cover; }
+.name { font-size: 20pt; font-weight: bold; color: #005a9c; margin-bottom: 3px; }
+.subtitle { font-size: 12pt; color: #555; }
+
+.section-title { font-size: 13pt; font-weight: bold; color: #005a9c; margin-top: 18px; margin-bottom: 8px; border-bottom: 1px solid #005a9c; padding-bottom: 3px; }
+table.info { width: 100%; margin-bottom: 5px; }
+table.info td { padding: 2px 0; vertical-align: top; }
+table.info td:first-child { font-weight: bold; width: 180px; color: #333; }
+.project-item { margin-bottom: 10px; }
+.project-title { font-weight: bold; font-size: 11pt; }
+.project-desc { margin-left: 15px; font-size: 10.5pt; color: #333; }
+.project-tech { margin-left: 15px; font-size: 10pt; color: #555; }
+.skill-cat { font-weight: bold; width: 180px; vertical-align: top; }
+ul { margin: 3px 0; padding-left: 20px; }
+li { margin-bottom: 2px; }
+.footer { margin-top: 25px; border-top: 1px solid #ccc; padding-top: 8px; font-size: 9pt; color: #777; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="header-text">
+<div class="name">Moisuc Raluca-Elena</div>
+<div class="subtitle">Studentă — Facultatea de Automatică și Calculatoare, Iași</div>
+</div>
+<div class="header-photo">
+<img src="poza_cv.jpg" alt="Foto">
+</div>
+</div>
+
+<div class="section-title">Date Personale</div>
+<table class="info">
+<tr><td>Adresă</td><td>Iași, România</td></tr>
+<tr><td>Telefon</td><td>[număr de telefon]</td></tr>
+<tr><td>Email</td><td>[email@example.com]</td></tr>
+<tr><td>Naționalitate</td><td>Română</td></tr>
+<tr><td>LinkedIn</td><td>[linkedin.com/in/ralucaelena]</td></tr>
+<tr><td>GitHub</td><td>[github.com/ralucaelena]</td></tr>
+</table>
+
+<div class="section-title">Educație și Formare</div>
+<table class="info">
+<tr><td>2023 – 2027 (est.)</td><td><strong>Facultatea de Automatică și Calculatoare</strong><br>Universitatea Tehnică „Gheorghe Asachi" din Iași<br>Specializarea: Ingineria Sistemelor<br>Discipline relevante: Inteligență Artificială, Programare (Python, C++), Sisteme de operare, Rețele de calculatoare</td></tr>
+<tr style="margin-top: 5px;"><td>2019 – 2023</td><td><strong>Liceul [Nume Liceu], Iași</strong><br>Profil: Matematică-Informatică</td></tr>
+</table>
+
+<div class="section-title">Competențe Tehnice</div>
+<table class="info">
+<tr><td class="skill-cat">Limbaje</td><td>Python, C/C++, Java, Bash</td></tr>
+<tr><td class="skill-cat">Web / API</td><td>FastAPI, REST API, Uvicorn</td></tr>
+<tr><td class="skill-cat">Machine Learning</td><td>Scikit-learn, Pandas, NumPy<br>Modele supervizate și nesupervizate, Pipeline, TF-IDF, Deployment modele</td></tr>
+<tr><td class="skill-cat">Sisteme de operare</td><td>Linux (Ubuntu, comenzi uzuale, permisiuni, procese, scripting, cron)</td></tr>
+<tr><td class="skill-cat">Versionare</td><td>Git, GitHub</td></tr>
+<tr><td class="skill-cat">Altele</td><td>Docker (noțiuni), Markdown, LaTeX</td></tr>
+</table>
+
+<div class="section-title">Competențe Lingvistice</div>
+<table class="info">
+<tr><td style="width: 180px;">Română</td><td>Limba maternă</td></tr>
+<tr><td>Engleză</td><td>Avansat — citit, scris, vorbit</td></tr>
+</table>
+
+<div class="section-title">Proiecte</div>
+
+<div class="project-item">
+<div class="project-title">Spam Detector — Clasificator Binar (2026)</div>
+<div class="project-desc">Model Naive Bayes pentru detectare spam/ham cu pipeline CountVectorizer + TF-IDF. Evaluare: acuratețe, precizie, recall, F1-score. Salvare model cu joblib.</div>
+<div class="project-tech">Tehnologii: Python, Scikit-learn, Pandas</div>
+</div>
+
+<div class="project-item">
+<div class="project-title">API de Predicție cu FastAPI (2026)</div>
+<div class="project-desc">Expunerea modelului Spam Detector printr-un API REST. Endpoint-uri: GET /, GET /health, POST /predict. Documentație Swagger automată.</div>
+<div class="project-tech">Tehnologii: FastAPI, Uvicorn, Pydantic</div>
+</div>
+
+<div class="project-item">
+<div class="project-title">Script Linux — Backup și Monitorizare (2026)</div>
+<div class="project-desc">Script bash pentru backup automat cu rotație. Monitorizare CPU, RAM, disc cu alertă la depășirea pragurilor.</div>
+<div class="project-tech">Tehnologii: Bash, Cron, Linux</div>
+</div>
+
+<div class="section-title">Alte Competențe</div>
+<ul>
+<li>Gândire analitică și rezolvare de probleme</li>
+<li>Capacitate de documentare clară și structurată</li>
+<li>Lucru în echipă și comunicare eficientă</li>
+<li>Autodidact — învățare continuă</li>
+<li>Respectarea termenelor și a standardelor de calitate</li>
+</ul>
+
+<div class="footer">
+În conformitate cu prevederile Regulamentului GDPR, datele personale sunt furnizate exclusiv în scopul procesului de recrutare.
+</div>
+
+</body>
+</html>
