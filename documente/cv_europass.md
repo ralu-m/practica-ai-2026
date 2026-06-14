@@ -26,12 +26,11 @@ fontsize: 11pt
 \begin{tabular}{@{}ll}
 \textbf{Nume:} & Moisuc Raluca-Elena \\
 \textbf{Adresă:} & Iași, România \\
-\textbf{Telefon:} & [număr de telefon] \\
-\textbf{Email:} & [email@example.com] \\
+\textbf{Telefon:} & 0758191341 \\
+\textbf{Email:} & raluca-elena.moisuc@student.tuiasi.ro \\
 \textbf{Naționalitate:} & Română \\
-\textbf{Data nașterii:} & [ZZ/LL/AAAA] \\
-\textbf{LinkedIn:} & [linkedin.com/in/ralucaelena] \\
-\textbf{GitHub:} & [github.com/ralucaelena] \\
+\textbf{Data nașterii:} & 11/11/2003 \\
+\textbf{GitHub:} & [github.com/ralu-m] \\
 \end{tabular}
 
 \vspace{0.5cm}
@@ -39,15 +38,15 @@ fontsize: 11pt
 \section*{Educație și Formare}
 
 \noindent
-\textbf{2023 – 2027 (estimat)} & \textbf{Facultatea de Automatică și Calculatoare} \\
+\textbf{2022 – 2027 (estimat)} & \textbf{Facultatea de Automatică și Calculatoare} \\
 & Universitatea Tehnică „Gheorghe Asachi" din Iași \\
-& Specializarea: Ingineria Sistemelor \\
-& Discipline relevante: Inteligență Artificială, Programare (Python, C++), Sisteme de operare, Rețele de calculatoare, Algoritmică
+& Specializarea: Calculatoare si Tehnologia Informatiei \\
+& Discipline relevante:  Programare (Python, C++), Sisteme de operare, Rețele de calculatoare, Algoritmică
 
 \vspace{0.3cm}
 
 \noindent
-\textbf{2019 – 2023} & \textbf{Liceul [Nume Liceu], Iași} \\
+\textbf{2018 – 2022} & \textbf{Liceul Colegiul Național Eudoxiu Hurmuzachi, Rădăuți} \\
 & Profil: Matematică-Informatică
 
 \vspace{0.5cm}
@@ -107,8 +106,6 @@ fontsize: 11pt
 
 \section*{Atestate / Certificări}
 
-\noindent
-• [Certificare Linux / Python, dacă există]
 
 \vspace{0.5cm}
 
@@ -125,5 +122,3 @@ fontsize: 11pt
 
 \noindent\rule{\textwidth}{0.5pt}
 \vspace{0.2cm}
-
-\noindent \textit{În conformitate cu prevederile Regulamentului GDPR, datele personale sunt furnizate exclusiv în scopul procesului de recrutare.}
